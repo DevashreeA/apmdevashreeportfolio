@@ -29,6 +29,8 @@ import { Counter, Reveal, SectionLabel } from "@/components/site/motion-primitiv
 import { caseStudies } from "@/data/case-studies";
 
 const PROFILE_IMAGE = "/devashree-profile.jpg";
+const PROFILE_IMAGE_FALLBACK =
+  "https://apmdevashreeportfolio.lovable.app/__l5e/assets-v1/d0ee1eff-187a-4852-a66b-8bee877f2376/devashree-profile.jpg";
 
 const TITLE = "Devashree Agnihotri | Associate Product Manager Portfolio";
 const DESCRIPTION =
@@ -328,6 +330,12 @@ function Home() {
                   width={640}
                   height={640}
                   loading="eager"
+                  onError={(event) => {
+                    const img = event.currentTarget;
+                    if (img.dataset.fallbackApplied === "true") return;
+                    img.dataset.fallbackApplied = "true";
+                    img.src = PROFILE_IMAGE_FALLBACK;
+                  }}
                   className="relative h-full w-full rounded-full object-cover object-top ring-1 ring-border/70 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 />
               </div>
