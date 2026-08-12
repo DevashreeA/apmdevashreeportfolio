@@ -27,7 +27,8 @@ import {
 } from "lucide-react";
 import { Counter, Reveal, SectionLabel } from "@/components/site/motion-primitives";
 import { caseStudies } from "@/data/case-studies";
-import profileAsset from "@/assets/devashree-profile.jpg.asset.json";
+
+const PROFILE_IMAGE = "/devashree-profile.jpg";
 
 const TITLE = "Devashree Agnihotri | Associate Product Manager Portfolio";
 const DESCRIPTION =
@@ -322,7 +323,7 @@ function Home() {
                 <div className="absolute -inset-6 rounded-full bg-primary/25 blur-3xl transition-opacity duration-700 group-hover:opacity-90 opacity-60" />
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary/60 via-primary/10 to-transparent" />
                 <img
-                  src={profileAsset.url}
+                  src={PROFILE_IMAGE}
                   alt="Devashree Agnihotri, Business Development Associate and aspiring Associate Product Manager"
                   width={640}
                   height={640}
