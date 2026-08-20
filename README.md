@@ -1,412 +1,277 @@
-# Devashree's Product Journey
+# Devashree Agnihotri — Product Management Portfolio
 
-Build a Premium Product Management Portfolio Website
+> **Turning customer insights into product decisions.**
 
-Build a world-class premium portfolio website that tells my story and positions me as a strong Associate Product Manager candidate for top product companies like Microsoft, Google, Adobe, Atlassian, Salesforce, Amazon and Razorpay.
+🌐 **Live Portfolio:** https://apmdevashreeportfolio-main.vercel.app/
 
-This should NOT look like a traditional resume website.
+This is my personal Product Management portfolio, built to document my transition from **Business Development to Product Management**.
 
-It should feel like a premium personal brand website inspired by Apple, Linear, Stripe, Vercel and Notion.
+As a Computer Science Engineering graduate currently working as a Business Development Associate at Intellipaat, I wanted to create something beyond a conventional resume website. This portfolio brings together my professional journey, product case studies, achievements, skills, and ongoing learning in one place.
 
-Tech Requirements
+The goal is simple:
 
-React
+**Show how I think about products, customers, problems, and business — not just what I have studied.**
 
-Tailwind CSS
+---
 
-Framer Motion
+## About Me
 
-Responsive Design
+I'm a Computer Science Engineering graduate currently working in Business Development, where I've had the opportunity to interact with hundreds of customers and understand their needs, objections, expectations, and decision-making processes.
 
-Dark Theme with Light/Dark Toggle
+During my first week at Intellipaat, I generated **₹1.5 lakh in revenue**, followed by **₹2.3 lakh within the next 15 days**.
 
-SEO Friendly
+More importantly, those conversations changed the direction of my career.
 
-Fast Loading
+I became increasingly interested in understanding:
 
-Deploy Ready
+* What problem is the customer actually trying to solve?
+* Why does a user choose one product over another?
+* What makes a feature valuable?
+* How should a product prioritize competing needs?
+* How can customer feedback translate into better product decisions?
 
-Design Style
+That curiosity led me toward Product Management.
 
-Minimal
+I am now building my product skills through case studies, product teardowns, analytics, wireframing, customer discovery, and continuous learning.
 
-Elegant
+My long-term goal is to build products that solve meaningful problems and eventually build a company of my own.
 
-Premium
+---
 
-Luxury
+## What's Inside
 
-Glassmorphism
+### 👋 About
 
-Rounded cards
+A personal introduction and the story behind my transition from engineering and business development into product management.
 
-Beautiful gradients
+### 🧭 Journey
 
-Smooth scrolling
+A visual timeline covering my journey from:
 
-Micro interactions
+**Computer Science → Technical Projects → Business Development → Customer Discovery → Product Thinking → APM → Product Leadership → Entrepreneurship**
 
-Scroll reveal animations
+### 🏆 Achievements
 
-Hover effects
+Highlights from my academic, professional and extracurricular journey, including:
 
-Animated counters
+* ₹2.3L revenue generated within 15 days
+* ₹1.5L revenue generated during my first week
+* National-level business idea competition winner
+* Debate & Pick and Speak achievements
+* Bharatanatyam Visharad
+* 14+ years of Bharatanatyam experience
+* Product case study portfolio
 
-Floating navbar
+### 🧠 Skills
 
-Professional typography
+A combination of business, product, analytical and technical skills.
 
-Sticky navigation
+**Business & Product**
 
-Timeline animations
+* Product Thinking
+* Customer Discovery
+* Market Research
+* Requirement Gathering
+* Stakeholder Management
+* Negotiation
+* Communication
 
-Section transitions
+**Data & Analytics**
 
-No unnecessary flashy effects.
+* Excel
+* SQL
+* Power BI
+* Python Basics
 
-Everything should feel modern and polished.
+**Tools & Technology**
 
-Navigation
+* Git
+* GitHub
+* VS Code
+* Docker
+* Render
+* CRM
 
-Home
+---
 
-About
+## Product Case Studies
 
-Journey
+One of the core parts of this portfolio is my collection of product case studies.
 
-Achievements
+Rather than simply describing features, each case study explores the **problem, users, current experience, proposed solution, trade-offs, metrics and future opportunities**.
 
-Skills
+### 01 — WhatsApp AI Smart Composer
 
-Case Studies
+**Reducing context switching through integrated AI.**
 
-Product Journal
+Explores how AI could help users compose messages more efficiently without forcing them to leave the conversation experience.
 
-Learning Dashboard
+[View Case Study](https://apmdevashreeportfolio-main.vercel.app/)
 
-Contact
+### 02 — Google Maps Conversational Navigation
 
-Resume
+**Making navigation safer through AI-powered conversations.**
 
-HERO SECTION
+Explores how conversational interaction could improve the navigation experience while reducing unnecessary interaction with the screen.
 
-Large modern hero.
+[View Case Study](https://apmdevashreeportfolio-main.vercel.app/)
 
-Heading
+### 03 — Instagram Intentional Reels
 
-Hi, I'm Devashree Agnihotri
+**Reducing mindless scrolling through user-controlled content discovery.**
 
-Subheading
+Explores the tension between engagement-driven recommendation systems and users' desire for more intentional content consumption.
 
-Business Development Associate
+[View Case Study](https://apmdevashreeportfolio-main.vercel.app/)
 
-Aspiring Associate Product Manager
+Each case study covers areas such as:
 
-Future Entrepreneur
+* Problem Definition
+* Target Users
+* User Personas
+* User Journey
+* Root Cause Analysis
+* Proposed Solution
+* Feature Prioritization
+* User & Business Benefits
+* KPIs
+* Trade-offs
+* Future Scope
+* Key Learnings
 
-Tagline
+---
 
-"I believe great products are built by deeply understanding people before building technology."
+## Product Philosophy
 
-Buttons
+> **"I believe products succeed when they solve real customer problems. Empathy identifies those problems, data validates them, and continuous iteration transforms ideas into impactful products."**
 
-View Product Portfolio
+This philosophy guides how I approach product problems:
 
-Download Resume
+**Understand → Validate → Prioritize → Build → Measure → Iterate**
 
-LinkedIn
+---
 
-Contact
+## Beyond Product Management
 
-Animated Statistics
+Some of the experiences that have shaped how I think and work exist outside technology.
 
-₹2.3L Revenue Generated
+### Bharatanatyam
 
-₹1.5L First Week Sale
+14+ years of classical dance and Bharatanatyam Visharad taught me discipline, consistency, patience and the importance of continuous refinement.
 
-3 Product Case Studies
+### Flute
 
-14+ Years Bharatanatyam
+Learning another instrument has taught me to become comfortable with being a beginner and improving through practice.
 
-ABOUT ME
+### Reading
 
-Create an engaging story instead of a generic introduction.
+I enjoy reading about products, businesses, psychology, entrepreneurship and human behaviour.
 
-Mention
+### Entrepreneurship
 
-Computer Science Engineering Graduate.
+I'm deeply interested in understanding how businesses identify problems, find customers and turn ideas into sustainable products.
 
-Currently working as Business Development Associate at Intellipaat.
+---
 
-Generated ₹1.5 lakh revenue during the first week.
+## Learning in Progress
 
-Generated ₹2.3 lakh revenue within the next 15 days.
+Product Management is a continuous learning process. I'm currently strengthening my knowledge in:
 
-Learned Customer Discovery, Negotiation, Problem Solving and Communication by interacting with hundreds of customers.
+* Product Thinking
+* Product Strategy
+* Product Metrics
+* SQL
+* Excel
+* Business Analytics
+* Wireframing
+* User Research
+* Competitive Analysis
+* Product Case Studies
+* APM Interview Preparation
 
-Explain that talking to customers every day inspired my transition into Product Management.
+The portfolio is also intended to evolve as I gain more real-world product experience.
 
-Mention that my passion lies in solving customer problems rather than simply selling products.
+---
 
-Mention that my long-term vision is to build products that create meaningful impact and eventually become the founder of my own company.
+## Tech Stack
 
-MY JOURNEY
+This portfolio was built using modern frontend technologies:
 
-Animated timeline
+* **React**
+* **Tailwind CSS**
+* **Framer Motion**
+* **Vite**
+* **Responsive Design**
+* **Modern CSS**
+* **Vercel**
 
-Computer Science Engineering
+The focus was on creating a fast, responsive and polished experience while keeping the interface simple enough to let the content remain the focus.
 
-↓
+---
 
-Technical Projects
+## Design Direction
 
-↓
+The visual design follows a minimal product-focused approach inspired by modern technology products.
 
-Business Development
+Key principles include:
 
-↓
+* Minimal visual hierarchy
+* Dark/light theme support
+* Responsive layouts
+* Glassmorphism
+* Rounded UI elements
+* Subtle gradients
+* Smooth transitions
+* Scroll-based animations
+* Micro-interactions
+* Clear typography
+* Content-first design
 
-Customer Discovery
+The intention was not to create another generic portfolio template, but to make the website itself feel like a **product**.
 
-↓
+---
 
-Product Thinking
+## What's Next?
 
-↓
+This portfolio is a work in progress.
 
-Associate Product Manager
+Future improvements may include:
 
-↓
+* More product case studies
+* Product teardown articles
+* Experiment analyses
+* Product metrics dashboards
+* More detailed UX research
+* APM interview preparation notes
+* Product management projects
+* Real-world product experiments
 
-Product Leader
+As my product journey evolves, the portfolio will evolve with it.
 
-↓
+---
 
-Founder
+## Connect With Me
 
-ACHIEVEMENTS
+**Devashree Agnihotri**
 
-Beautiful premium cards
+Business Development Associate | Aspiring Associate Product Manager
 
-₹2.3L Revenue Generated in 15 Days
+📧 **Email:** [agnihotridevashree01@gmail.com](mailto:agnihotridevashree01@gmail.com)
 
-₹1.5L Revenue in First Week
+💼 **LinkedIn:** https://www.linkedin.com/in/devashree14/
 
-14+ Years of Bharatanatyam
+💻 **GitHub:** https://github.com/DevashreeA
 
-Completed Bharatanatyam Visharad
+🌐 **Portfolio:** https://apmdevashreeportfolio-main.vercel.app/
 
-Engineering Graduate
+---
 
-Product Case Study Portfolio
+## License
 
-BEYOND WORK
+This portfolio is a personal project by Devashree Agnihotri.
 
-Beautiful cards
+© 2026 Devashree Agnihotri
 
-Bharatanatyam
+---
 
-Flute
-
-Reading
-
-Continuous Learning
-
-Entrepreneurship
-
-Explain what each activity has taught me.
-
-SKILLS
-
-Split into categories.
-
-Business Skills
-
-Communication
-
-Negotiation
-
-Customer Discovery
-
-Sales
-
-Leadership
-
-Presentation
-
-Product Skills
-
-Product Thinking
-
-User Research
-
-Feature Prioritization
-
-Competitive Analysis
-
-Roadmapping
-
-Product Strategy
-
-Product Metrics
-
-Technical Skills
-
-SQL (Learning)
-
-Excel
-
-Power BI (Learning)
-
-APIs (Learning)
-
-Wireframing
-
-AI Tools
-
-PRODUCT CASE STUDIES
-
-Create beautiful premium cards.
-
-Each card opens a dedicated page.
-
-Case Study 1
-
-WhatsApp AI Smart Composer
-
-Reducing context switching using integrated AI.
-
-Case Study 2
-
-Google Maps Conversational Navigation
-
-Making navigation safer using AI conversations.
-
-Case Study 3
-
-Instagram Intentional Reels
-
-Reducing mindless scrolling through user-controlled content discovery.
-
-Each Case Study Page must contain
-
-Hero Banner
-
-Executive Summary
-
-Problem Statement
-
-Target Users
-
-User Personas
-
-Current User Journey
-
-Improved User Journey
-
-Workflow Diagram Placeholder
-
-Wireframe Placeholder
-
-Root Cause
-
-Solution
-
-Feature Breakdown
-
-Business Benefits
-
-User Benefits
-
-KPIs
-
-Trade-offs
-
-Future Scope
-
-Key Learnings
-
-Previous and Next navigation.
-
-PRODUCT JOURNAL
-
-Blog style layout.
-
-Weekly product observations.
-
-Product reviews.
-
-Learning reflections.
-
-LEARNING DASHBOARD
-
-Animated progress bars
-
-Product Thinking
-
-Product Strategy
-
-SQL
-
-Excel
-
-Product Metrics
-
-Business Analytics
-
-Wireframing
-
-Interview Preparation
-
-PRODUCT PHILOSOPHY
-
-Large premium section
-
-"I believe products succeed when they solve real customer problems. Empathy identifies those problems, data validates them, and continuous iteration transforms ideas into impactful products."
-
-CONTACT
-
-Modern premium contact section.
-
-Email
-
-LinkedIn
-
-GitHub
-
-Resume Download
-
-FOOTER
-
-Designed and Built by Devashree Agnihotri
-
-IMPORTANT
-
-This website should feel like the portfolio of someone who genuinely understands Product Management.
-
-Avoid generic AI portfolio layouts.
-
-Prioritize storytelling, premium UI, clean UX, elegant spacing and professional presentation over unnecessary complexity.
-
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://apmdevashreeportfolio.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/c23eb75e-40bd-4593-8859-2ebbe5198a08).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+**Designed and built by Devashree Agnihotri.**
