@@ -32,7 +32,7 @@ const PROFILE_IMAGE = "/devashree-profile.jpg";
 const PROFILE_IMAGE_FALLBACK =
   "https://apmdevashreeportfolio.lovable.app/__l5e/assets-v1/d0ee1eff-187a-4852-a66b-8bee877f2376/devashree-profile.jpg";
 
-const TITLE = "Devashree Agnihotri | Associate Product Manager Portfolio";
+const TITLE = "Devashree Agnihotri | Aspiring Product Manager Portfolio";
 const DESCRIPTION =
   "Business Development Associate turned Product Management Aspirant. Generated ₹2.3L revenue within 15 days, built product case studies, passionate about customer-centric product development.";
 
@@ -183,7 +183,7 @@ const beyondWork = [
   {
     icon: BookOpen,
     title: "Reading",
-    body: "Product books, biographies and behavioural psychology — most product problems are human problems in disguise.",
+    body: "Product books, biographies and behavioural psychology most product problems are human problems in disguise.",
   },
   {
     icon: Compass,
@@ -193,7 +193,7 @@ const beyondWork = [
   {
     icon: Rocket,
     title: "Entrepreneurship",
-    body: "Studying how companies find their first hundred customers — the part of building that sales taught me to respect.",
+    body: "Studying how companies find their first hundred customers the part of building that sales taught me to respect.",
   },
 ];
 
@@ -214,12 +214,12 @@ const skillGroups = [
   {
     label: "Data",
     icon: BarChart3,
-    skills: ["Excel", "SQL", "Power BI", "Python Basics"],
+    skills: ["Excel", "SQL", "Power BI", "Jira", "Confluence", "Python Basics"],
   },
   {
     label: "Project & Tools",
     icon: Database,
-    skills: ["Agile", "Git", "GitHub", "VS Code", "Docker", "Render", "CRM"],
+    skills: ["Agile", "GitHub", "VS Code", "CRM", "Render", "Vercel"],
   },
 ];
 
@@ -270,17 +270,15 @@ function Home() {
                 Hi, I'm <span className="text-gradient">Devashree Agnihotri</span>
               </h1>
               <div className="mt-7 grid gap-1.5 text-lg text-muted-foreground sm:text-xl">
-                <p className="text-foreground">Business Development Associate</p>
-                <p>Aspiring Associate Product Manager</p>
+                <p className="text-foreground">Product Thinker</p>
+                <p>Aspiring Product Manager</p>
                 <p>Future Entrepreneur</p>
               </div>
               <p className="mt-9 max-w-2xl border-l-2 border-primary/50 pl-6 font-display text-2xl leading-snug sm:text-3xl">
                 “Turning customer insights into product decisions.”
               </p>
               <p className="mt-7 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Computer Science Engineering graduate currently working at Intellipaat,
-                transitioning into Product Management through real-world product case studies,
-                customer discovery and structured problem solving.
+                Product-focused problem solver who turns customer needs into clear product opportunities, user experiences, and measurable outcomes. I enjoy breaking down real products, identifying friction, and thinking through solutions from user problem to product decision.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-3">
@@ -371,37 +369,36 @@ function Home() {
           <Reveal>
             <SectionLabel>About</SectionLabel>
             <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
-              I didn't leave sales for product. Sales is what sent me here.
+              What I'm Building Toward.
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="grid gap-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-              I'm a <span className="text-foreground">Computer Science Engineering graduate</span>{" "}
-              working as a{" "}
-              <span className="text-foreground">Business Development Associate at Intellipaat</span>
-              , where I generated{" "}
-              <span className="text-foreground">₹1.5 lakh in revenue during my first week</span> and{" "}
-              <span className="text-foreground">₹2.3 lakh within the next 15 days</span>.
-            </p>
-            <p>
-              The numbers matter less than what produced them. Hundreds of conversations built my{" "}
-              <span className="text-foreground">customer discovery and negotiation skills</span> —
-              learning to hear the problem behind the objection, structure it, and communicate a
-              solution so it actually lands with the person on the other side.
-            </p>
-            <p>
-              Somewhere in those calls the shift happened. I stopped being interested in closing and
-              started being interested in the gap — the thing the customer needed that no product on
-              my list actually solved. That is why I'm{" "}
-              <span className="text-foreground">passionate about Product Management</span>: it is
-              the role where understanding people turns into decisions that ship.
-            </p>
-            <p>
-              I now build that craft deliberately through case studies, teardowns, metrics, SQL and
-              wireframes. My long-term goal is to keep moving from insight to impact — and
-              eventually to{" "}
-              <span className="text-foreground">build my own company</span>.
-            </p>
+  I'm a <span className="text-foreground">Computer Science Engineering graduate</span>{" "}
+  interested in how products are built, improved, and made useful for the people who use them.
+</p>
+
+<p>
+  My customer-facing experience has helped me develop strong{" "}
+  <span className="text-foreground">customer discovery, communication, and problem-solving skills</span>.
+  Speaking with different customers made me more curious about the problems behind their needs and
+  how products can address those problems more effectively.
+</p>
+
+<p>
+  That curiosity led me toward <span className="text-foreground">Product Management</span>.
+  I enjoy understanding a problem before jumping to a solution, breaking down user journeys,
+  identifying friction points, and thinking about what could be improved and why.
+</p>
+
+<p>
+  I'm currently building my product skills through{" "}
+  <span className="text-foreground">product case studies, product teardowns, user research, metrics, SQL, and data analysis</span>,
+  while also working with tools such as{" "}
+  <span className="text-foreground">Jira, Confluence, and Power BI</span>.
+  I'm looking for an opportunity to learn from an experienced product team and contribute to
+  solving real customer and business problems.
+</p>
           </Reveal>
         </div>
       </section>
