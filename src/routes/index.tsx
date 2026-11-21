@@ -330,8 +330,8 @@ function Home() {
                   loading="eager"
                   onError={(event) => {
                     const img = event.currentTarget;
-                    if (img.dataset.fallbackApplied === "true") return;
-                    img.dataset.fallbackApplied = "true";
+                    if (img.dataset["fallbackApplied"] === "true") return;
+                    img.dataset["fallbackApplied"] = "true";
                     img.src = PROFILE_IMAGE_FALLBACK;
                   }}
                   className="relative h-full w-full rounded-full object-cover object-top ring-1 ring-border/70 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
