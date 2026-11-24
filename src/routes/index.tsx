@@ -8,11 +8,9 @@ import {
   BookOpen,
   Briefcase,
   Compass,
-  Database,
   FileDown,
   Github,
   GraduationCap,
-  Lightbulb,
   Linkedin,
   Mail,
   MapPin,
@@ -20,21 +18,18 @@ import {
   Phone,
   Rocket,
   Sparkles,
-  Star,
   Target,
-  TrendingUp,
   Users,
 } from "lucide-react";
 import { Counter, Reveal, SectionLabel } from "@/components/site/motion-primitives";
 import { caseStudies } from "@/data/case-studies";
+import profileAsset from "@/assets/devashree-profile.webp.asset.json";
 
-const PROFILE_IMAGE = "/devashree-profile.jpg";
-const PROFILE_IMAGE_FALLBACK =
-  "https://apmdevashreeportfolio.lovable.app/__l5e/assets-v1/d0ee1eff-187a-4852-a66b-8bee877f2376/devashree-profile.jpg";
+const PROFILE_IMAGE = profileAsset.url;
 
-const TITLE = "Devashree Agnihotri | Aspiring Product Manager Portfolio";
+const TITLE = "Devashree Agnihotri | Business Operations & HR Operations Portfolio";
 const DESCRIPTION =
-  "Business Development Associate turned Product Management Aspirant. Generated ₹2.3L revenue within 15 days, built product case studies, passionate about customer-centric product development.";
+  "B.Tech Computer Science graduate with experience in business development and community operations, focused on HR operations, payroll, talent acquisition, and business operations.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -55,8 +50,8 @@ export const Route = createFileRoute("/")({
           "@context": "https://schema.org",
           "@type": "Person",
           name: "Devashree Agnihotri",
-          jobTitle: "Business Development Associate, Aspiring Associate Product Manager",
-          email: "mailto:agnihotridevashree01@gmail.com",
+          jobTitle: "Business Development Executive / Trainee",
+          email: "mailto:devashreea14@gmail.com",
           telephone: "+91-9322362663",
           address: { "@type": "PostalAddress", addressLocality: "Bengaluru", addressCountry: "IN" },
           worksFor: { "@type": "Organization", name: "Intellipaat" },
@@ -65,10 +60,13 @@ export const Route = createFileRoute("/")({
             "https://github.com/DevashreeA",
           ],
           knowsAbout: [
-            "Product Management",
-            "Customer Discovery",
-            "Product Strategy",
+            "HR Operations",
+            "Payroll Operations",
+            "Talent Acquisition",
+            "Business Operations",
             "Business Development",
+            "Product Operations",
+            "Product Management",
           ],
         }),
       },
@@ -78,94 +76,71 @@ export const Route = createFileRoute("/")({
 });
 
 const stats = [
-  {
-    value: 2.3,
-    prefix: "₹",
-    suffix: "L+",
-    decimals: 1,
-    label: "Revenue Generated",
-    sub: "Within 15 Days",
-  },
-  {
-    value: 1.5,
-    prefix: "₹",
-    suffix: "L",
-    decimals: 1,
-    label: "Revenue Generated",
-    sub: "During First Week",
-  },
-  { value: 3, suffix: "", label: "Product Case Studies", sub: "End-to-end deep dives" },
+  { value: 8, suffix: ".0", label: "B.Tech CGPA", sub: "Computer Science & Engineering" },
+  { value: 2, suffix: "", label: "Featured Projects", sub: "Data and task management" },
+  { value: 3, suffix: "", label: "Certifications", sub: "Forage programs" },
   { value: 14, suffix: "+", label: "Years of Bharatanatyam", sub: "Visharad certified" },
 ];
 
-const journey = [
+const experience = [
   {
-    icon: GraduationCap,
-    title: "Computer Science Engineering",
-    body: "Built the technical foundation — systems, logic and the confidence to sit in a room with engineers.",
+    company: "Intellipaat",
+    role: "Business Development Executive / Trainee",
+    period: "June 2026 – November 2026",
+    bullets: [
+      "Used Zoho CRM to maintain customer records and track interactions.",
+      "Managed follow-ups and maintained organized records.",
+      "Handled customer queries and supported daily business activities.",
+      "Coordinated communication and stakeholder interactions.",
+      "Developed organizational and relationship management skills.",
+    ],
   },
   {
-    icon: Sparkles,
-    title: "Technical Projects",
-    body: "Turned coursework into shipped things, and learned how much of building is deciding what not to build.",
+    company: "Info Hub Community",
+    role: "Business Management and Community Operations",
+    period: null,
+    bullets: [
+      "Supported business management and community coordination.",
+      "Coordinated communication and member engagement.",
+      "Assisted with organizing community activities.",
+      "Developed people management and organizational skills.",
+    ],
+  },
+];
+
+const education = [
+  {
+    school: "Punyashlok Ahilyadevi Holkar Solapur University",
+    credential: "B.Tech Computer Science and Engineering",
+    detail: "CGPA: 8.0 · 2022–2026",
   },
   {
-    icon: Briefcase,
-    title: "Business Development",
-    body: "Joined Intellipaat as a Business Development Associate. Revenue targets made outcomes concrete.",
+    school: "A. D. Joshi Junior College",
+    credential: "Higher Secondary Certificate",
+    detail: "90.3%",
   },
   {
-    icon: Users,
-    title: "Customer Discovery",
-    body: "Hundreds of conversations. Learned to hear the problem behind the objection, not just the objection.",
-  },
-  {
-    icon: Lightbulb,
-    title: "Product Thinking",
-    body: "Started writing case studies, tearing down products and defending trade-offs in writing.",
-  },
-  {
-    icon: Target,
-    title: "Associate Product Manager",
-    body: "Where I'm headed next — owning problems end to end alongside design, engineering and data.",
-  },
-  {
-    icon: Rocket,
-    title: "Future Entrepreneur",
-    body: "The long game — building a company around a product that creates real, measurable impact.",
+    school: "Indian Model School",
+    credential: "CBSE Class 10",
+    detail: "76.4%",
   },
 ];
 
 const achievements = [
   {
-    value: "₹2.3L",
-    title: "Revenue generated in 15 days",
-    body: "Built and closed a consistent pipeline entirely through customer conversations and structured follow-through.",
+    value: "First Prize",
+    title: "National-Level Business Idea Competition",
+    body: "Recognized for presenting a startup idea at a national-level symposium.",
   },
   {
-    value: "₹1.5L",
-    title: "First week revenue",
-    body: "Delivered in week one at Intellipaat — before any playbook, script or comfort zone existed.",
-  },
-  {
-    value: "Winner",
-    title: "National Level Business Idea Competition",
-    body: "Pitched and won a national-level business idea contest, judged on problem clarity, market fit and viability.",
-  },
-  {
-    value: "Winner",
-    title: "Debate & Pick and Speak",
-    body: "Multiple wins in competitive debate and impromptu speaking — the foundation of stakeholder communication.",
+    value: "First Prize",
+    title: "Debate and Pick & Speak",
+    body: "Awarded first prize in debate and Pick & Speak competitions.",
   },
   {
     value: "Visharad",
     title: "Bharatanatyam Visharad",
-    body: "A degree-level classical dance certification earned across 14+ years of disciplined practice.",
-  },
-  {
-    value: "3",
-    title: "Product case study portfolio",
-    body: "Deep, end-to-end studies on WhatsApp, Google Maps and Instagram with KPIs and trade-offs defended.",
+    body: "Visharad certification with more than 14 years of classical dance training.",
   },
 ];
 
@@ -183,7 +158,7 @@ const beyondWork = [
   {
     icon: BookOpen,
     title: "Reading",
-    body: "Product books, biographies and behavioural psychology most product problems are human problems in disguise.",
+    body: "I enjoy reading about people, businesses, and how organizations work.",
   },
   {
     icon: Compass,
@@ -199,44 +174,98 @@ const beyondWork = [
 
 const skillGroups = [
   {
-    label: "Business & Product",
-    icon: Target,
+    label: "HR & Payroll Operations",
+    icon: Briefcase,
     skills: [
-      "Product Thinking",
-      "Requirement Gathering",
-      "Market Research",
-      "Stakeholder Management",
-      "Customer Discovery",
-      "Negotiation",
-      "Communication",
+      "Documentation",
+      "Record Management",
+      "Data Accuracy",
+      "Process Coordination",
+      "Administrative Support",
     ],
   },
   {
-    label: "Data",
-    icon: BarChart3,
-    skills: ["Excel", "SQL", "Power BI", "Jira", "Confluence", "Python Basics"],
+    label: "Business & Operations",
+    icon: Users,
+    skills: [
+      "Zoho CRM",
+      "Stakeholder Management",
+      "Business Coordination",
+      "Process Mapping",
+      "Problem-Solving",
+    ],
   },
   {
-    label: "Project & Tools",
-    icon: Database,
-    skills: ["Agile", "GitHub", "VS Code", "CRM", "Render", "Vercel"],
+    label: "Data & Technical",
+    icon: BarChart3,
+    skills: ["Microsoft Excel", "SQL", "Power BI", "Power Query", "Python", "Data Visualization"],
+  },
+  {
+    label: "Product & Business Analysis",
+    icon: Target,
+    skills: [
+      "User Research",
+      "Market Research",
+      "Feature Prioritization",
+      "Product Thinking",
+      "Requirements Analysis",
+    ],
+  },
+  {
+    label: "Professional",
+    icon: Sparkles,
+    skills: [
+      "Communication",
+      "Team Collaboration",
+      "Time Management",
+      "Organization",
+      "Presentation Skills",
+      "People Management",
+    ],
   },
 ];
 
+const projects = [
+  {
+    title: "Sales Forecasting Dashboard",
+    description:
+      "Developed a machine learning model using historical sales data to forecast future sales trends and visualize insights for business planning.",
+    tools: ["Python", "Pandas", "Scikit-learn", "Matplotlib"],
+    links: [],
+  },
+  {
+    title: "Task Scape Vision",
+    description: "A task management platform for organizing and tracking tasks.",
+    tools: ["React.js", "TypeScript", "Tailwind CSS", "Docker", "Render"],
+    links: [
+      { label: "Live project", href: "https://task-scape-vision-1.onrender.com/" },
+      { label: "GitHub", href: "https://github.com/DevashreeA/task-scape-vision" },
+    ],
+  },
+];
+
+const certifications = [
+  "Siemens Project Manager Job Simulation – Forage",
+  "Deloitte Data Analytics Job Simulation – Forage",
+  "TATA Data Visualisation – Forage",
+];
+
 const openTo = [
-  "Associate Product Manager",
-  "Product Analyst",
-  "Growth",
-  "Product Strategy",
-  "Business Analysis",
+  "HR Operations",
+  "Payroll Associate",
+  "HR Executive",
+  "Talent Acquisition",
+  "Recruitment Coordinator",
+  "Operations Executive",
+  "Business Operations",
 ];
 
 const contacts = [
   {
     icon: Mail,
     label: "Email",
-    value: "agnihotridevashree01@gmail.com",
-    href: "mailto:agnihotridevashree01@gmail.com",
+    value: "devashreea14@gmail.com",
+    href: "mailto:devashreea14@gmail.com",
   },
   { icon: Phone, label: "Phone", value: "+91 93223 62663", href: "tel:+919322362663" },
   {
@@ -247,7 +276,12 @@ const contacts = [
   },
   { icon: Github, label: "GitHub", value: "@DevashreeA", href: "https://github.com/DevashreeA" },
   { icon: MapPin, label: "Location", value: "Bengaluru, India", href: "" },
-  { icon: FileDown, label: "Resume", value: "Download PDF", href: "/resume.pdf" },
+  {
+    icon: FileDown,
+    label: "Download Resume (PDF)",
+    value: "Current resume",
+    href: "/resume.pdf",
+  },
 ];
 
 function Home() {
@@ -264,51 +298,46 @@ function Home() {
             >
               <span className="inline-flex items-center gap-2 rounded-full glass px-4 py-1.5 text-xs tracking-wide text-muted-foreground">
                 <span className="h-1.5 w-1.5 rounded-full bg-primary" />
-                Open to Associate Product Manager roles
+                Open to Opportunities
               </span>
-              <h1 className="mt-8 font-display text-5xl leading-[1.02] tracking-tight sm:text-6xl lg:text-7xl">
-                Hi, I'm <span className="text-gradient">Devashree Agnihotri</span>
-              </h1>
-              <div className="mt-7 grid gap-1.5 text-lg text-muted-foreground sm:text-xl">
-                <p className="text-foreground">Product Thinker</p>
-                <p>Aspiring Product Manager</p>
-                <p>Future Entrepreneur</p>
-              </div>
-              <p className="mt-9 max-w-2xl border-l-2 border-primary/50 pl-6 font-display text-2xl leading-snug sm:text-3xl">
-                “Turning customer insights into product decisions.”
+              <p className="mt-7 text-sm font-medium uppercase tracking-[0.2em] text-primary">
+                Devashree Agnihotri
               </p>
-              <p className="mt-7 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-                Product-focused problem solver who turns customer needs into clear product opportunities, user experiences, and measurable outcomes. I enjoy breaking down real products, identifying friction, and thinking through solutions from user problem to product decision.
+              <h1 className="mt-4 font-display text-4xl leading-[1.06] tracking-tight sm:text-5xl lg:text-6xl">
+                Business Operations <span className="text-gradient">| HR Operations |</span>{" "}
+                People &amp; Process Management
+              </h1>
+              <p className="mt-6 max-w-2xl text-lg leading-relaxed text-foreground sm:text-xl">
+                Combining business experience, analytical thinking and people skills to support
+                efficient operations and meaningful business outcomes.
+              </p>
+              <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted-foreground sm:text-lg">
+                I'm a Computer Science graduate with experience in Business Development at
+                Intellipaat and community business management. I enjoy coordinating people,
+                managing processes, solving problems and using data to support business decisions.
               </p>
 
               <div className="mt-10 flex flex-wrap gap-3">
-                <Link
-                  to="/case-studies"
-                  className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
-                >
-                  View Product Portfolio <ArrowRight className="h-4 w-4" />
-                </Link>
                 <a
                   href="/resume.pdf"
                   download
+                  className="inline-flex items-center gap-2 rounded-full bg-primary px-6 py-3 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03]"
+                >
+                  <FileDown className="h-4 w-4" /> Download Resume (PDF)
+                </a>
+                <Link
+                  to="/"
+                  hash="experience"
                   className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:border-primary hover:text-primary"
                 >
-                  <FileDown className="h-4 w-4" /> Resume
-                </a>
-                <a
-                  href="https://www.linkedin.com/in/devashree14/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:border-primary hover:text-primary"
-                >
-                  <Linkedin className="h-4 w-4" /> LinkedIn
-                </a>
+                  Explore My Experience <ArrowRight className="h-4 w-4" />
+                </Link>
                 <Link
                   to="/"
                   hash="contact"
                   className="inline-flex items-center gap-2 rounded-full border border-border px-6 py-3 text-sm font-medium transition-colors hover:border-primary hover:text-primary"
                 >
-                  <Mail className="h-4 w-4" /> Contact
+                  <Mail className="h-4 w-4" /> Let's Connect
                 </Link>
               </div>
             </motion.div>
@@ -324,17 +353,11 @@ function Home() {
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary/60 via-primary/10 to-transparent" />
                 <img
                   src={PROFILE_IMAGE}
-                  alt="Devashree Agnihotri, Business Development Associate and aspiring Associate Product Manager"
+                  alt="Devashree Agnihotri smiling in a café portrait"
                   width={640}
                   height={640}
                   loading="eager"
-                  onError={(event) => {
-                    const img = event.currentTarget;
-                    if (img.dataset["fallbackApplied"] === "true") return;
-                    img.dataset["fallbackApplied"] = "true";
-                    img.src = PROFILE_IMAGE_FALLBACK;
-                  }}
-                  className="relative h-full w-full rounded-full object-cover object-top ring-1 ring-border/70 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
+                  className="relative h-full w-full rounded-full object-cover object-[53%_38%] ring-1 ring-border/70 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
                 />
               </div>
             </motion.div>
@@ -369,74 +392,91 @@ function Home() {
           <Reveal>
             <SectionLabel>About</SectionLabel>
             <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
-              What I'm Building Toward.
+              About Me
             </h2>
           </Reveal>
           <Reveal delay={0.1} className="grid gap-6 text-lg leading-relaxed text-muted-foreground">
             <p>
-  I'm a <span className="text-foreground">Computer Science Engineering graduate</span>{" "}
-  interested in how products are built, improved, and made useful for the people who use them.
-</p>
-
-<p>
-  My customer-facing experience has helped me develop strong{" "}
-  <span className="text-foreground">customer discovery, communication, and problem-solving skills</span>.
-  Speaking with different customers made me more curious about the problems behind their needs and
-  how products can address those problems more effectively.
-</p>
-
-<p>
-  That curiosity led me toward <span className="text-foreground">Product Management</span>.
-  I enjoy understanding a problem before jumping to a solution, breaking down user journeys,
-  identifying friction points, and thinking about what could be improved and why.
-</p>
-
-<p>
-  I'm currently building my product skills through{" "}
-  <span className="text-foreground">product case studies, product teardowns, user research, metrics, SQL, and data analysis</span>,
-  while also working with tools such as{" "}
-  <span className="text-foreground">Jira, Confluence, and Power BI</span>.
-  I'm looking for an opportunity to learn from an experienced product team and contribute to
-  solving real customer and business problems.
-</p>
+              I'm a B.Tech Computer Science graduate with professional experience in Business
+              Development at Intellipaat, where I developed skills in CRM management, stakeholder
+              communication, customer relationship management and follow-ups.
+            </p>
+            <p>
+              My involvement in Info Hub Community strengthened my business management,
+              coordination and people-management abilities.
+            </p>
+            <p>
+              I also enjoy working on data-driven projects, business analysis and product
+              improvement ideas. My primary interests include HR operations, payroll, talent
+              acquisition and business operations, while continuing to explore Product Management
+              and Product Operations.
+            </p>
           </Reveal>
         </div>
       </section>
 
-      {/* JOURNEY */}
-      <section id="journey" className="border-t border-border/60 px-6 py-28">
-        <div className="mx-auto max-w-4xl">
+      {/* EXPERIENCE */}
+      <section id="experience" className="border-t border-border/60 px-6 py-28">
+        <div className="mx-auto max-w-6xl">
           <Reveal>
-            <SectionLabel>My Journey</SectionLabel>
+            <SectionLabel>Experience</SectionLabel>
             <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
-              From writing code to owning problems.
+              People, process, and business support.
             </h2>
           </Reveal>
-
-          <div className="relative mt-16 pl-10">
-            <motion.div
-              className="absolute left-[15px] top-2 w-px bg-gradient-to-b from-primary via-primary/40 to-transparent"
-              initial={{ height: 0 }}
-              whileInView={{ height: "100%" }}
-              viewport={{ once: true, margin: "-100px" }}
-              transition={{ duration: 1.8, ease: "easeOut" }}
-            />
-            <div className="grid gap-10">
-              {journey.map((step, i) => (
-                <Reveal key={step.title} delay={i * 0.06}>
-                  <div className="relative">
-                    <span className="absolute -left-10 top-1 grid h-8 w-8 place-items-center rounded-full border border-primary/40 bg-background text-primary">
-                      <step.icon className="h-4 w-4" />
+          <div className="mt-14 grid gap-5 md:grid-cols-2">
+            {experience.map((item, i) => (
+              <Reveal key={item.company} delay={i * 0.08}>
+                <article className="h-full rounded-3xl border border-border/60 bg-card/50 p-8 transition-all duration-500 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lux">
+                  <div className="flex items-start gap-4">
+                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-primary/12 text-primary">
+                      <Briefcase className="h-5 w-5" />
                     </span>
-                    <p className="text-xs uppercase tracking-[0.24em] text-primary">
-                      Step {String(i + 1).padStart(2, "0")}
-                    </p>
-                    <h3 className="mt-2 font-display text-3xl">{step.title}</h3>
-                    <p className="mt-2 max-w-xl text-muted-foreground">{step.body}</p>
+                    <div className="min-w-0">
+                      <p className="text-xs uppercase tracking-[0.18em] text-primary">
+                        {item.company}
+                      </p>
+                      <h3 className="mt-2 font-display text-2xl leading-snug">{item.role}</h3>
+                      {item.period && (
+                        <p className="mt-2 text-sm text-muted-foreground">{item.period}</p>
+                      )}
+                    </div>
                   </div>
-                </Reveal>
-              ))}
-            </div>
+                  <ul className="mt-6 grid gap-3">
+                    {item.bullets.map((bullet) => (
+                      <li key={bullet} className="flex gap-3 text-sm leading-relaxed text-muted-foreground">
+                        <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-primary" />
+                        <span>{bullet}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* EDUCATION */}
+      <section id="education" className="border-t border-border/60 px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <Reveal>
+            <SectionLabel>Education</SectionLabel>
+            <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
+              A technical foundation for practical problem-solving.
+            </h2>
+          </Reveal>
+          <div className="mt-12 grid gap-5 md:grid-cols-3">
+            {education.map((item, i) => (
+              <Reveal key={item.school} delay={i * 0.06}>
+                <article className="h-full rounded-3xl glass p-7">
+                  <GraduationCap className="h-5 w-5 text-primary" />
+                  <h3 className="mt-5 font-display text-xl leading-snug">{item.credential}</h3>
+                  <p className="mt-3 text-sm text-muted-foreground">{item.school}</p>
+                  <p className="mt-4 text-sm font-medium text-primary">{item.detail}</p>
+                </article>
+              </Reveal>
+            ))}
           </div>
         </div>
       </section>
@@ -454,14 +494,32 @@ function Home() {
             {achievements.map((a, i) => (
               <Reveal key={a.title} delay={i * 0.06}>
                 <div className="h-full rounded-3xl border border-border/60 bg-card/50 p-8 transition-all duration-500 hover:-translate-y-1.5 hover:border-primary/40 hover:shadow-lux">
-                  {a.value === "Winner" ? (
-                    <Award className="h-5 w-5 text-primary" />
-                  ) : (
-                    <Star className="h-5 w-5 text-primary" />
-                  )}
+                  <Award className="h-5 w-5 text-primary" />
                   <p className="mt-6 font-display text-4xl text-primary">{a.value}</p>
                   <h3 className="mt-3 text-lg font-medium">{a.title}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-muted-foreground">{a.body}</p>
+                </div>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* CERTIFICATIONS */}
+      <section id="certifications" className="border-t border-border/60 px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <Reveal>
+            <SectionLabel>Certifications</SectionLabel>
+            <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
+              Applied learning across project management and analytics.
+            </h2>
+          </Reveal>
+          <div className="mt-12 grid gap-4 md:grid-cols-3">
+            {certifications.map((certification, i) => (
+              <Reveal key={certification} delay={i * 0.06}>
+                <div className="flex h-full items-start gap-4 rounded-3xl border border-border/60 bg-card/50 p-6">
+                  <Award className="mt-1 h-5 w-5 shrink-0 text-primary" />
+                  <p className="font-medium leading-relaxed">{certification}</p>
                 </div>
               </Reveal>
             ))}
@@ -530,14 +588,67 @@ function Home() {
         </div>
       </section>
 
-      {/* CASE STUDIES */}
-      <section id="case-studies" className="border-t border-border/60 px-6 py-28">
+      {/* PROJECTS */}
+      <section id="projects" className="border-t border-border/60 px-6 py-28">
         <div className="mx-auto max-w-6xl">
           <Reveal>
-            <SectionLabel>Case Studies</SectionLabel>
+            <SectionLabel>Projects</SectionLabel>
             <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
-              Three problems I couldn't stop thinking about.
+              Projects built around data and coordination.
             </h2>
+          </Reveal>
+          <div className="mt-14 grid gap-5 lg:grid-cols-2">
+            {projects.map((project, i) => (
+              <Reveal key={project.title} delay={i * 0.08}>
+                <article className="flex h-full flex-col rounded-3xl border border-border/60 bg-card/50 p-8 transition-all duration-500 hover:-translate-y-1 hover:border-primary/40 hover:shadow-lux">
+                  <h3 className="font-display text-3xl">{project.title}</h3>
+                  <p className="mt-4 flex-1 leading-relaxed text-muted-foreground">
+                    {project.description}
+                  </p>
+                  <div className="mt-6 flex flex-wrap gap-2">
+                    {project.tools.map((tool) => (
+                      <span
+                        key={tool}
+                        className="rounded-full border border-border/70 px-3 py-1 text-xs text-muted-foreground"
+                      >
+                        {tool}
+                      </span>
+                    ))}
+                  </div>
+                  {project.links.length > 0 && (
+                    <div className="mt-7 flex flex-wrap gap-5 border-t border-border/60 pt-5">
+                      {project.links.map((link) => (
+                        <a
+                          key={link.href}
+                          href={link.href}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-foreground"
+                        >
+                          {link.label} <ArrowUpRight className="h-4 w-4" />
+                        </a>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              </Reveal>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* SECONDARY PRODUCT THINKING */}
+      <section id="product-thinking" className="border-t border-border/60 px-6 py-24">
+        <div className="mx-auto max-w-6xl">
+          <Reveal>
+            <SectionLabel>Secondary Interest</SectionLabel>
+            <h2 className="mt-5 font-display text-4xl leading-tight sm:text-5xl">
+              Product Thinking &amp; Business Analysis
+            </h2>
+            <p className="mt-4 max-w-2xl text-muted-foreground">
+              Three case studies that let me continue exploring user needs, product decisions and
+              business trade-offs alongside my primary interest in operations.
+            </p>
           </Reveal>
           <div className="mt-14 grid gap-5 lg:grid-cols-3">
             {caseStudies.map((cs, i) => (
@@ -563,38 +674,22 @@ function Home() {
         </div>
       </section>
 
-      {/* PHILOSOPHY */}
-      <section className="hero-aura border-t border-border/60 px-6 py-32">
-        <div className="mx-auto max-w-4xl text-center">
-          <Reveal>
-            <span className="text-xs uppercase tracking-[0.28em] text-primary">
-              Product Philosophy
-            </span>
-            <p className="mt-10 font-display text-3xl leading-[1.25] sm:text-5xl">
-              “I believe products succeed when they solve real customer problems. Empathy identifies
-              those problems, data validates them, and continuous iteration transforms ideas into
-              impactful products.”
-            </p>
-            <div className="mx-auto mt-12 h-px w-48 hairline" />
-          </Reveal>
-        </div>
-      </section>
-
       {/* CONTACT */}
       <section id="contact" className="border-t border-border/60 px-6 py-28">
         <div className="mx-auto max-w-5xl">
           <Reveal>
             <SectionLabel>Contact</SectionLabel>
             <h2 className="mt-5 max-w-3xl font-display text-4xl leading-tight sm:text-5xl">
-              Let's Build Great Products Together
+              Let's Connect
             </h2>
             <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-              If you're building something customers actually need, I'd love to talk.
+              I'm open to opportunities where I can contribute through communication,
+              coordination, analytical thinking, people management and business operations.
             </p>
           </Reveal>
 
           <Reveal delay={0.08} className="mt-10">
-            <p className="text-xs uppercase tracking-[0.24em] text-primary">Open to</p>
+            <p className="text-xs uppercase tracking-[0.24em] text-primary">Primary opportunities</p>
             <div className="mt-4 flex flex-wrap gap-2">
               {openTo.map((role) => (
                 <span
@@ -605,6 +700,10 @@ function Home() {
                 </span>
               ))}
             </div>
+            <p className="mt-5 text-sm text-muted-foreground">
+              Also open to <span className="text-foreground">Product Operations</span> as a
+              secondary interest.
+            </p>
           </Reveal>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
