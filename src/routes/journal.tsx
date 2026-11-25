@@ -8,12 +8,12 @@ export const Route = createFileRoute("/journal")({
       {
         name: "description",
         content:
-          "Weekly product observations, teardowns and learning reflections from an aspiring Associate Product Manager.",
+          "Notes on products, processes, and business decisions as a secondary interest alongside HR and operations.",
       },
       { property: "og:title", content: "Product Journal — Devashree Agnihotri" },
       {
         property: "og:description",
-        content: "Weekly product observations, teardowns and learning reflections.",
+        content: "Product and business analysis notes that complement an operations-focused career.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/journal" },
@@ -31,7 +31,7 @@ const entries = [
     readTime: "3 min read",
     tags: ["Onboarding", "Activation", "Fintech"],
     title: "Onboarding is a promise, not a tour",
-    body: "Three fintech apps I signed up for this week opened with a five-slide carousel. None of them asked what I came to do. The one product that did — a single question, 'what are you here to track?' — was the only one I opened again on day two. Activation is about confirming intent, not explaining features.",
+    body: "Many sign-up flows open with a carousel, but never ask what the user came to do. A product that begins by asking what someone wants to track makes its value clear sooner. Activation is about confirming intent, not explaining features.",
   },
   {
     type: "Teardown",
@@ -46,7 +46,7 @@ const entries = [
     date: "17 July 2026",
     readTime: "5 min read",
     tags: ["Customer Discovery", "Interviews", "Sales"],
-    title: "What 300 sales calls taught me about discovery questions",
+    title: "What customer conversations taught me about discovery questions",
     body: "In sales I learned that the first objection is almost never the real one. 'It's too expensive' usually means 'I don't believe the outcome yet.' Product discovery interviews have the same shape — the first answer is the polite one. The third why is where the insight lives.",
   },
   {
@@ -85,8 +85,8 @@ function JournalPage() {
             Thinking out loud, every week.
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-            Short notes on products I use, decisions I'd argue with, and what I'm learning as I
-            build the skill of product judgement.
+            Short notes on products, processes, and business decisions that complement my primary
+            interests in people and operations.
           </p>
         </Reveal>
 

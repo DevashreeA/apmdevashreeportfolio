@@ -10,7 +10,7 @@ export function Footer() {
         <p className="text-sm text-muted-foreground">Bengaluru, India</p>
         <div className="flex items-center gap-3">
           <a
-            href="mailto:agnihotridevashree01@gmail.com"
+            href="mailto:devashreea14@gmail.com"
             aria-label="Email"
             className="grid h-10 w-10 place-items-center rounded-full border border-border/70 text-muted-foreground transition-colors hover:text-primary"
           >
@@ -37,7 +37,7 @@ export function Footer() {
         </div>
         <div className="flex flex-wrap justify-center gap-x-5 gap-y-2 text-sm text-muted-foreground">
           <Link to="/case-studies" className="hover:text-foreground">
-            Case Studies
+            Product Thinking
           </Link>
           <Link to="/journal" className="hover:text-foreground">
             Product Journal
@@ -46,7 +46,7 @@ export function Footer() {
             Contact
           </Link>
           <a href="/resume.pdf" download className="hover:text-foreground">
-            Resume
+            Download Resume (PDF)
           </a>
         </div>
         <p className="text-xs text-muted-foreground">

@@ -81,11 +81,11 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Devashree Agnihotri | Associate Product Manager Portfolio" },
+      { title: "Devashree Agnihotri | Business Operations & HR Operations" },
       {
         name: "description",
         content:
-          "Business Development Associate turned Product Management Aspirant. Generated ₹2.3L revenue within 15 days, built product case studies, passionate about customer-centric product development.",
+          "B.Tech Computer Science graduate with experience in business development and community operations, focused on HR operations, payroll, talent acquisition, and business operations.",
       },
       { name: "author", content: "Devashree Agnihotri" },
       { property: "og:site_name", content: "Devashree Agnihotri" },
@@ -93,21 +93,21 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "twitter:card", content: "summary_large_image" },
       {
         property: "og:title",
-        content: "Devashree Agnihotri | Associate Product Manager Portfolio",
+        content: "Devashree Agnihotri | Business Operations & HR Operations",
       },
       {
         name: "twitter:title",
-        content: "Devashree Agnihotri | Associate Product Manager Portfolio",
+        content: "Devashree Agnihotri | Business Operations & HR Operations",
       },
       {
         property: "og:description",
         content:
-          "Business Development Associate turned Product Management Aspirant. Generated ₹2.3L revenue within 15 days, built product case studies, passionate about customer-centric product development.",
+          "B.Tech Computer Science graduate with experience in business development and community operations, focused on HR operations, payroll, talent acquisition, and business operations.",
       },
       {
         name: "twitter:description",
         content:
-          "Business Development Associate turned Product Management Aspirant. Generated ₹2.3L revenue within 15 days, built product case studies, passionate about customer-centric product development.",
+          "B.Tech Computer Science graduate with experience in business development and community operations, focused on HR operations, payroll, talent acquisition, and business operations.",
       },
 
     ],
@@ -130,7 +130,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
 
 function RootShell({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className="dark">
+    <html lang="en">
       <head>
         <HeadContent />
       </head>

@@ -7,14 +7,15 @@ import { cn } from "@/lib/utils";
 
 const sectionLinks = [
   { label: "About", hash: "about" },
-  { label: "Journey", hash: "journey" },
+  { label: "Experience", hash: "experience" },
   { label: "Achievements", hash: "achievements" },
   { label: "Skills", hash: "skills" },
+  { label: "Projects", hash: "projects" },
   { label: "Contact", hash: "contact" },
 ];
 
 const pageLinks = [
-  { label: "Case Studies", to: "/case-studies" },
+  { label: "Product Thinking", to: "/case-studies" },
   { label: "Journal", to: "/journal" },
 ];
 
@@ -92,7 +93,7 @@ export function Nav() {
               download
               className="hidden shrink-0 items-center gap-1.5 rounded-full bg-primary px-4 py-2 text-sm font-medium text-primary-foreground transition-transform hover:scale-[1.03] sm:inline-flex"
             >
-              <FileDown className="h-4 w-4" /> Resume
+              <FileDown className="h-4 w-4" /> Download Resume (PDF)
             </a>
 
             <button
@@ -139,7 +140,7 @@ export function Nav() {
                   download
                   className="rounded-xl px-3 py-2 text-sm text-primary"
                 >
-                  Resume
+                  Download Resume (PDF)
                 </a>
 
               </div>

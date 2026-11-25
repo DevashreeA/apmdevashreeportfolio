@@ -6,16 +6,19 @@ import { Reveal, SectionLabel } from "@/components/site/motion-primitives";
 export const Route = createFileRoute("/case-studies/")({
   head: () => ({
     meta: [
-      { title: "Product Case Studies — Devashree Agnihotri" },
+      { title: "Product Thinking & Business Analysis — Devashree Agnihotri" },
       {
         name: "description",
         content:
-          "Three deep product case studies on WhatsApp, Google Maps and Instagram — problem framing, personas, solutions, KPIs and trade-offs.",
+          "Three secondary-interest case studies on WhatsApp, Google Maps, and Instagram, exploring user needs, product decisions, and business trade-offs.",
       },
-      { property: "og:title", content: "Product Case Studies — Devashree Agnihotri" },
+      {
+        property: "og:title",
+        content: "Product Thinking & Business Analysis — Devashree Agnihotri",
+      },
       {
         property: "og:description",
-        content: "Deep product teardowns with problem framing, KPIs and trade-offs.",
+        content: "Secondary-interest case studies exploring product decisions and business trade-offs.",
       },
       { property: "og:type", content: "website" },
       { property: "og:url", content: "/case-studies" },
@@ -31,13 +34,13 @@ function CaseStudiesIndex() {
     <main className="hero-aura px-6 pb-28 pt-36">
       <div className="mx-auto max-w-6xl">
         <Reveal>
-          <SectionLabel>Case Studies</SectionLabel>
+          <SectionLabel>Secondary Interest</SectionLabel>
           <h1 className="mt-5 max-w-3xl font-display text-5xl leading-[1.05] sm:text-6xl">
-            Product thinking, written down.
+            Product Thinking &amp; Business Analysis
           </h1>
           <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-            Each study starts with a real user frustration, works back to a root cause, and ends
-            with the trade-offs I would defend in a room.
+            These case studies complement my primary focus on HR and business operations, while
+            continuing to explore user needs, product decisions, and business trade-offs.
           </p>
         </Reveal>
 

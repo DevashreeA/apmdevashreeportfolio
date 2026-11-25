@@ -370,9 +370,7 @@ function Home() {
                   <p className="font-display text-4xl text-primary sm:text-5xl">
                     <Counter
                       value={s.value}
-                      prefix={s.prefix ?? ""}
                       suffix={s.suffix}
-                      decimals={s.decimals ?? 0}
                     />
                   </p>
                   <p className="mt-3 text-sm font-medium">{s.label}</p>

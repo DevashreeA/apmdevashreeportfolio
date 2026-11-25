@@ -11,8 +11,18 @@ export const Route = createFileRoute("/case-studies/$slug")({
   },
   head: ({ params, loaderData }) => {
     if (!loaderData) {
+      const title = "Case study unavailable — Devashree Agnihotri";
+      const description = "A product thinking and business analysis case study from Devashree Agnihotri.";
       return {
-        meta: [{ title: "Case study unavailable" }, { name: "robots", content: "noindex" }],
+        meta: [
+          { title },
+          { name: "description", content: description },
+          { property: "og:title", content: title },
+          { property: "og:description", content: description },
+          { property: "og:type", content: "article" },
+          { name: "twitter:card", content: "summary_large_image" },
+          { name: "robots", content: "noindex" },
+        ],
       };
     }
     const { study } = loaderData;
