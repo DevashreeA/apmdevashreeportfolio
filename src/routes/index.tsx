@@ -7,7 +7,6 @@ import {
   BarChart3,
   BookOpen,
   Briefcase,
-  Compass,
   FileDown,
   Github,
   GraduationCap,
@@ -159,11 +158,6 @@ const beyondWork = [
     icon: BookOpen,
     title: "Reading",
     body: "I enjoy reading about people, businesses, and how organizations work.",
-  },
-  {
-    icon: Compass,
-    title: "Continuous learning",
-    body: "SQL, analytics and wireframing, practised deliberately so the gaps stay visible instead of comfortable.",
   },
   {
     icon: Rocket,
@@ -351,14 +345,16 @@ function Home() {
               <div className="group relative aspect-square">
                 <div className="absolute -inset-6 rounded-full bg-primary/25 blur-3xl transition-opacity duration-700 group-hover:opacity-90 opacity-60" />
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-br from-primary/60 via-primary/10 to-transparent" />
-                <img
-                  src={PROFILE_IMAGE}
-                  alt="Devashree Agnihotri smiling in a café portrait"
-                  width={640}
-                  height={640}
-                  loading="eager"
-                  className="relative h-full w-full rounded-full object-cover object-[53%_38%] ring-1 ring-border/70 transition-transform duration-700 ease-out group-hover:scale-[1.03]"
-                />
+                <div className="relative h-full w-full overflow-hidden rounded-full ring-1 ring-border/70">
+                  <img
+                    src={PROFILE_IMAGE}
+                    alt="Devashree Agnihotri smiling in a café portrait"
+                    width={640}
+                    height={640}
+                    loading="eager"
+                    className="h-full w-full scale-[1.35] rounded-full object-cover object-[50%_16%] transition-transform duration-700 ease-out group-hover:scale-[1.4]"
+                  />
+                </div>
               </div>
             </motion.div>
           </div>
@@ -698,10 +694,11 @@ function Home() {
                 </span>
               ))}
             </div>
-            <p className="mt-5 text-sm text-muted-foreground">
-              Also open to <span className="text-foreground">Product Operations</span> as a
-              secondary interest.
-            </p>
+            <div className="mt-5">
+              <span className="rounded-full border border-primary/30 bg-primary/5 px-4 py-2 text-sm text-primary">
+                Product Operations (secondary interest)
+              </span>
+            </div>
           </Reveal>
 
           <div className="mt-12 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
